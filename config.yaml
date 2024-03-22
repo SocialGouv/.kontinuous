@@ -3,8 +3,10 @@ ciNamespaceDefaultFallback: true # remove this line after ovh migration
 dependencies:
   fabrique:
     import: socialgouv/kontinuous/plugins/fabrique
-    valuesCompilers:
-      globalDefaults:
-        options:
-          mergeValues:
-            buildkitServiceAddr: tcp://buildkit.socialgouv.io:1234
+    dependencies:
+      contrib:
+        valuesCompilers:
+          globalDefaults:
+            options:
+              mergeValues:
+                buildkitServiceAddr: tcp://buildkit.socialgouv.io:1234
