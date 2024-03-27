@@ -1,5 +1,3 @@
-ciNamespaceDefaultFallback: true # remove this line after ovh migration
-
 dependencies:
   fabrique:
     import: socialgouv/kontinuous/plugins/fabrique
