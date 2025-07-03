@@ -7,4 +7,4 @@ dependencies:
           globalDefaults:
             options:
               mergeValues:
-                buildkitServiceAddr: tcp://buildkit.socialgouv.io:1234
+                buildkitServiceAddr: tcp://buildkit.atlas.fabrique.social.gouv.fr:1234
